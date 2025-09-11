@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/hotel-reservation-system/static/js/main.aaeb7a5a.js",
+    "index.html": "/hotel-reservation-system/index.html",
+    "main.aaeb7a5a.js.map": "/hotel-reservation-system/static/js/main.aaeb7a5a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.aaeb7a5a.js"
+  ]
+}
