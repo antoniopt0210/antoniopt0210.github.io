@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.aaeb7a5a.js",
-    "index.html": "/index.html",
-    "main.aaeb7a5a.js.map": "/static/js/main.aaeb7a5a.js.map"
+    "main.js": "/hotel-reservation-system/static/js/main.aaeb7a5a.js",
+    "index.html": "/hotel-reservation-system/index.html",
+    "main.aaeb7a5a.js.map": "/hotel-reservation-system/static/js/main.aaeb7a5a.js.map"
   },
   "entrypoints": [
     "static/js/main.aaeb7a5a.js"
