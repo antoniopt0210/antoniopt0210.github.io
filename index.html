@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm py-4 sticky top-0 z-50">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Your Name</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors">About</a></li>
+                    <li><a href="#projects" class="text-gray-600 hover:text-gray-900 transition-colors">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <main class="container mx-auto px-4 py-12">
+        <section id="about" class="bg-white rounded-xl shadow-lg p-8 mb-12">
+            <h2 class="text-3xl font-bold mb-4 text-gray-800">About Me</h2>
+            <div class="grid md:grid-cols-3 gap-8 items-center">
+                <div class="md:col-span-1">
+                    <img src="https://placehold.co/400x400/e5e7eb/4b5563?text=Your+Photo" alt="Your Photo" class="rounded-full w-48 h-48 mx-auto shadow-md">
+                </div>
+                <div class="md:col-span-2 text-gray-700">
+                    <p class="mb-4">Hello! I'm a passionate developer with a knack for creating user-friendly and visually appealing web applications. I specialize in front-end development, focusing on technologies like HTML, CSS, and JavaScript, and I love bringing ideas to life through code.</p>
+                    <p>When I'm not coding, you can find me exploring new design trends or learning about the latest advancements in technology. I am always open to new opportunities and collaborations!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="bg-white rounded-xl shadow-lg p-8">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">My Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-gray-50 rounded-lg shadow-sm p-6 transform transition duration-300 hover:scale-105 hover:shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Project Title 1</h3>
+                    <p class="text-gray-600 mb-4">A brief description of your project. Mention the key features and technologies used. This could be a portfolio piece, a personal tool, or a class assignment.</p>
+                    <a href="https://your-github-username.github.io/project-repo-name" target="_blank" class="inline-block bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700 transition-colors">
+                        View Demo
+                    </a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-gray-50 rounded-lg shadow-sm p-6 transform transition duration-300 hover:scale-105 hover:shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Project Title 2</h3>
+                    <p class="text-gray-600 mb-4">Another description for your second project. This project showcases a different skill or technology, such as a back-end component or a data visualization.</p>
+                    <a href="https://your-github-username.github.io/another-project-repo" target="_blank" class="inline-block bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700 transition-colors">
+                        View Demo
+                    </a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-gray-50 rounded-lg shadow-sm p-6 transform transition duration-300 hover:scale-105 hover:shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Project Title 3</h3>
+                    <p class="text-gray-600 mb-4">Description for a third project. You can describe a collaborative effort, a complex algorithm, or an app with a unique user interface.</p>
+                    <a href="https://your-github-username.github.io/third-project-repo" target="_blank" class="inline-block bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700 transition-colors">
+                        View Demo
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white shadow-sm py-6 mt-12">
+        <div class="container mx-auto px-4 text-center text-gray-600">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
